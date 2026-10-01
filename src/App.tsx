@@ -548,7 +548,7 @@ export default function App() {
                 </div>
                 <div className="stat-row">
                   <div className="stat-box"><div className="stat-num">4</div><div className="stat-lbl">Áreas técnicas</div></div>
-                  <div className="stat-box"><div className="stat-num">24h</div><div className="stat-lbl">Atendimento</div></div>
+                  <div className="stat-box"><div className="stat-num">8h–18h</div><div className="stat-lbl">Segunda a sexta</div></div>
                   <div className="stat-box"><div className="stat-num">IA</div><div className="stat-lbl">Agentes &amp; Auto.</div></div>
                 </div>
               </div>
