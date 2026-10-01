@@ -2,6 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { ScrollToTop } from './components/ScrollToTop';
+import networkImage from './assets/network-infrastructure.jpg';
+import smartphoneImage from './assets/smartphone.jpg';
+import electronicsImage from './assets/electronics-repair.jpg';
+import aiImage from './assets/ai-robot.jpg';
 import { 
   Bot, 
   Monitor, 
@@ -584,6 +588,7 @@ export default function App() {
           </div>
           <div className="services-grid">
             <div className="service-card card-ti" data-aos="fade-up" data-aos-delay="0">
+              <img className="service-image" src={networkImage} alt="Rack de servidores e infraestrutura de rede" />
               <div className="card-number">01</div><div className="card-icon"><Monitor size={32} /></div>
               <h3 className="card-title">Informática e Redes</h3>
               <p className="card-desc">Suporte para computadores, redes e sistemas, com atendimento direto e eficiente.</p>
@@ -596,6 +601,7 @@ export default function App() {
               </ul>
             </div>
             <div className="service-card card-mobile" data-aos="fade-up" data-aos-delay="80">
+              <img className="service-image" src={smartphoneImage} alt="Smartphone moderno em destaque" />
               <div className="card-number">02</div><div className="card-icon"><Smartphone size={32} /></div>
               <h3 className="card-title">Celulares e Smartphones</h3>
               <p className="card-desc">Cuidados, ajustes e soluções para manter seu celular rápido, seguro e funcional.</p>
@@ -608,6 +614,7 @@ export default function App() {
               </ul>
             </div>
             <div className="service-card card-electronics" data-aos="fade-up" data-aos-delay="160">
+              <img className="service-image" src={electronicsImage} alt="Técnico realizando reparo em uma placa eletrônica" />
               <div className="card-number">03</div><div className="card-icon"><Cpu size={32} /></div>
               <h3 className="card-title">Eletrônica em Geral</h3>
               <p className="card-desc">Análise técnica de equipamentos eletrônicos para localizar falhas e orientar o reparo.</p>
@@ -620,6 +627,7 @@ export default function App() {
               </ul>
             </div>
             <div className="service-card card-ia" data-aos="fade-up" data-aos-delay="240">
+              <img className="service-image" src={aiImage} alt="Robô humanoide representando soluções com inteligência artificial" />
               <div className="card-number">04</div><div className="card-icon"><Bot size={32} /></div>
               <h3 className="card-title">Soluções com IA</h3>
               <p className="card-desc">Automatize tarefas e transforme ideias em ferramentas inteligentes para sua rotina.</p>

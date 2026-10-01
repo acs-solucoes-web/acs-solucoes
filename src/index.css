@@ -642,6 +642,15 @@ section { position: relative; z-index: 1; padding: 6rem 1.5rem; }
 .service-card:hover { transform: translateY(-6px); }
 .service-card:hover::before { transform: scaleX(1); }
 
+.service-image {
+  display: block;
+  width: calc(100% + 3.6rem);
+  height: 150px;
+  margin: -2.2rem -1.8rem 1.4rem;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
 .card-ti { --c: var(--blue); --cg: var(--blue-glow); }
 .card-mobile { --c: #a78bfa; --cg: rgba(167, 139, 250, 0.3); }
 .card-electronics { --c: var(--green); --cg: var(--green-glow); }
