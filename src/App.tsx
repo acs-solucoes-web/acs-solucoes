@@ -2,10 +2,10 @@ import { useEffect, useRef, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { ScrollToTop } from './components/ScrollToTop';
-import networkImage from './assets/network-infrastructure.jpg';
-import smartphoneImage from './assets/smartphone.jpg';
-import electronicsImage from './assets/electronics-repair.jpg';
-import aiImage from './assets/ai-robot.jpg';
+import networkImage from './assets/network-service.svg';
+import smartphoneImage from './assets/smartphone-service.svg';
+import electronicsImage from './assets/electronics-service.svg';
+import aiImage from './assets/ai-solutions.svg';
 import { 
   Bot, 
   Monitor, 
